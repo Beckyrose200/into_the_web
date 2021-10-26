@@ -16,7 +16,6 @@ get '/koala' do
 end
 
 get '/named_koala' do
-  p params
   @rand_name = params[:name]
   erb(:index)
 end
